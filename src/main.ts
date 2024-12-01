@@ -11,6 +11,15 @@ class Car {
     }
 }
 
+class BMW extends Car {
+    public speed: number;
+
+    constructor(model: string, color: string, speed: number) {
+        super(model, color)
+        this.speed = speed;
+    }
+}
+
 const myCar = new Car('BMW', 'red')
 console.log(myCar.model);
 myCar.changeColor('White');
