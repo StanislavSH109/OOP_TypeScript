@@ -5,4 +5,6 @@ var Car = /** @class */ (function () {
     }
     return Car;
 }());
-console.log(Object);
+var myCar = new Car('BMW', 'red');
+console.log(myCar.model);
+console.log(myCar.color);
