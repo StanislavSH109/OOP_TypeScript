@@ -1,2 +1,2 @@
-# OOP_TypeScript
+# OOP TypeScript
 Modificators: pubilc, private, protected, static
